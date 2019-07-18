@@ -1,0 +1,73 @@
+.font-label{
+	font-size: 20px;
+}
+
+.judul-head-card{
+	font-size: 30px;
+}
+
+.edit-image{
+	width: 200px;
+	height: 150px;
+}
+
+.jarak-button-table{
+	padding-left: 2px;
+}
+
+.thumbs img{
+	width: 130px;
+	height: 90px;
+}
+
+.page{
+	padding-top: 20px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+}
+
+.tarik-kanan{
+	margin-left: 77%;
+}
+
+.search-position{
+	margin-left: 550px;
+}
+
+.navbars li a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbars li a:hover{
+	background-color: #ff0606;
+	border-radius: 7px;
+}
+
+.posisi-jumtron{
+	margin-top: 70px;
+}
+
+.logo{
+	margin-top: 50px;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+.logo-img{
+	width: 1366px;
+	height: 150px;
+}
+
+.footer-text-edit{
+	text-align: center;
+	color: white;
+}
+
+.badge-edit{
+	background-color: white;
+	border-radius: 50%;
+	color: black;
+}
