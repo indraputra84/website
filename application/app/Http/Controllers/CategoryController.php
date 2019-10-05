@@ -37,20 +37,20 @@ class CategoryController extends Controller
         return view('admin.createmcategory', compact('contactcount','requestcount'));
     }
 
-    public function storemultiple(Request $request)
-    {
-        $index = 0;
-        $id = request('id[]')
-        for ($index = 0;$index < $id;$index++) {
-            Category::create([
-                'id'=>$id,
-                'category'=>request('category[$index]')
-            ]);
-        }
+    // public function storemultiple(Request $request)
+    // {
+    //     $index = 0;
+    //     $id = request('id[]')
+    //     for ($index = 0;$index < $id;$index++) {
+    //         Category::create([
+    //             'id'=>$id,
+    //             'category'=>request('category[$index]')
+    //         ]);
+    //     }
 
-        Alert::success('Data Berhasil Diinputkan', 'Success');
-        return redirect()->route('admin.category');
-    }
+    //     Alert::success('Data Berhasil Diinputkan', 'Success');
+    //     return redirect()->route('admin.category');
+    // }
 
     public function create()
     {

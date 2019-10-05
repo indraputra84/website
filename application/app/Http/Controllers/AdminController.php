@@ -22,4 +22,6 @@ class AdminController extends Controller
         $requestcount = Requests::count();
         return view('admin.home', compact('contactcount','requestcount'));
     }
+
+    
 }
